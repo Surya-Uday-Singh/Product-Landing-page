@@ -1,0 +1,121 @@
+*{
+    box-sizing:border-box;
+    border: 1px solid black;
+  }
+  
+  #header-img{
+    width:10%;
+    
+  }
+  #first-heading{
+    margin-top:15%;
+  }
+  
+  header{
+    position:fixed;
+    display:flex;
+    top:0;
+    background-color:white;
+   
+    
+  }
+  #nav-bar{
+    width:90%;
+    
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+  }
+  
+  .nav-link{
+    width:30%;
+    font-size: 1.2rem;
+    text-align:center;
+    border-radius:20px;
+    font-family:Copperplate;
+  }
+  
+  .p-email{
+    display:inline-block;
+    font-family:Copperplate;
+    
+  }
+  
+  
+  #form{
+    text-align:center;
+  }
+  
+  #submit{
+     border-radius:5px;
+     background-color: #ffffff;
+     color:black;
+  }
+  #submit:hover{
+    background-color: black;
+     color:#ffffff;
+     
+    
+  }
+  
+  .h2-heading{
+     text-align:center;
+     font-family: Copperplate;
+     
+  }
+  
+  .img-model{
+    width:40%;
+    border-radius:40px;
+    
+  }
+  .div-model{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-left:5%;
+    padding-right:5%;
+    margin-bottom:10px;
+  }
+  .p-model{
+    font-size:1.2rem;
+    font-family:Copperplate
+  
+  }
+  
+  .p-price{
+    text-align:center;
+    font-size:1.2rem;
+    font-family:Copperplate;
+  }
+  
+  #video{
+    border-radius:20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .p-end{
+    text-align:center;
+    font-family:Copperplate;
+    font-size:2rem;
+  }
+  
+  a{
+    color:#090909;
+  padding: 0.7em 1.7em;
+  font-size:18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #fff;
+  text-decoration: none;
+  font-family: Copperplate;
+  }
+  
+  a:hover{
+    box-shadow: -6px -6px 12px #c5c5c5, 6px 6px 12px #fff;
+  }
+  
+ 
